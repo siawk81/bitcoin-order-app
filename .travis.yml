@@ -1,4 +1,4 @@
-language: node_js
+glanguage: node_js
 node_js:
   - node
 
@@ -8,7 +8,7 @@ sudo: required
 notifications:
   email:
     recipients:
-      - bunnyppl@gmail.com
+      - wengkong@ncs.com.sg
     on_success: always
     on_failure: always
 branches:
@@ -18,7 +18,7 @@ before_script:
   - npm install -g @angular/cli
   - npm install -g now
 script:
-  - ng build --prod --base-href https://kenken64.github.io/bitcoin-order-app/
+  - ng build --prod --base-href https://siawk81.github.io/bitcoin-order-app/
 
   
 deploy:
